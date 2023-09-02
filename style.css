@@ -1,0 +1,85 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    background-color: rgb(00,00,00,0.50);
+    border-radius: 12px;
+    width: 52%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+}
+
+.logo {
+    height: 82px;
+    display: flex;
+    margin: auto;
+}
+
+.headline {
+   font-family: Poppins, sans-serif;
+   font-weight: 500;
+   color: #00DD00;
+   font-size: 22px; 
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 4px;
+}
+
+.banner-cta {
+    background-color: #00DD00;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.button {
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.item-monopattino {
+    font-family: Poppins, sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name-monopattino {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item-monopattino p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.battery-monopattino {
+    border-radius: 4px;
+}
+
+.battery-low {
+    background-color: #BE4141;
+    width: 20%;
+}
+
+.battery-medium {
+    background-color: #F5B454;
+    width: 40%;
+}
+
+.battery-high {
+    background-color: #1EC31D;
+    width: 60%;
+}
